@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_nzZZkBgREeiUFLB-iTGDjA" comment="connectionComment" label="connectionLabel" dataPackage="_nzZZkRgREeiUFLB-iTGDjA"/>
+  <TalendMetadata:GenericPackage xmi:id="_nzZZkRgREeiUFLB-iTGDjA" dataManager="_nzZZkBgREeiUFLB-iTGDjA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_nzZZkhgREeiUFLB-iTGDjA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nzZZkxgREeiUFLB-iTGDjA" name="Column0" id="2" label="Column0" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_nzZZlBgREeiUFLB-iTGDjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nzZZlRgREeiUFLB-iTGDjA" name="Column1" id="3" label="Column1" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_nzZZlhgREeiUFLB-iTGDjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nzZZlxgREeiUFLB-iTGDjA" name="Column2" id="4" label="Column2" length="-1" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_nzZZmBgREeiUFLB-iTGDjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nzZZmRgREeiUFLB-iTGDjA" name="Column3" id="5" label="Column3" length="23" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_nzZZmhgREeiUFLB-iTGDjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nzZZmxgREeiUFLB-iTGDjA" name="Column4" id="6" label="Column4" length="-1" precision="17" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_nzZZnBgREeiUFLB-iTGDjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nzZZnRgREeiUFLB-iTGDjA" name="Column5" id="7" label="Column5" length="-1" precision="17" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_nzZZnhgREeiUFLB-iTGDjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nzZZnxgREeiUFLB-iTGDjA" name="Column6" id="8" label="Column6" length="-1" precision="18" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_nzZZoBgREeiUFLB-iTGDjA"/>
+      </feature>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_nzZZoRgREeiUFLB-iTGDjA" name="Column7" id="9" label="Column7" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;">
+        <initialValue xmi:id="_nzZZohgREeiUFLB-iTGDjA"/>
+      </feature>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

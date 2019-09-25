@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_rSW5UBD2EeizJrjqPdPW4g" name="test" dataPackage="_rSW5URD2EeizJrjqPdPW4g" Server="Localhost 127.0.0.1" FilePath="C:/Users/houssem rezgui/Documents/ProjetBi/ActivityRecognition/Nouveau dossier/ConfLongDemo_JSI.csv" Format="WINDOWS" Encoding="US-ASCII" FieldSeparatorValue="&quot;;&quot;" RowSeparatorValue="&quot;\n&quot;" HeaderValue="0"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_rSW5URD2EeizJrjqPdPW4g" name="default" dataManager="_rSW5UBD2EeizJrjqPdPW4g">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_rSW5UhD2EeizJrjqPdPW4g" id="_CuUC4BD2EeizJrjqPdPW4g" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_rSW5UxD2EeizJrjqPdPW4g" label="Column0" length="128" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>

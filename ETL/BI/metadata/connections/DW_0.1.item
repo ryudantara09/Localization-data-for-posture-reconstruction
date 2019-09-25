@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <TalendMetadata:DatabaseConnection xmi:id="_41s_oBWCEeixFvDPuvH0_g" name="DW" id="_sWFdQBWCEeixFvDPuvH0_g" label="DW" dataPackage="_SznTIBWDEeixFvDPuvH0_g" DatabaseType="PostgreSQL" DriverClass="org.postgresql.Driver" URL="jdbc:postgresql://localhost:5432/DW_BiPi" dbVersionString="PRIOR_TO_V9" Port="5432" Username="postgres" Password="6Kzo4PaNQW4=" ServerName="localhost" DatasourceName="" FileFieldName="" SID="DW_BiPi" SqlSynthax="Syntaxe SQL" DbmsId="postgres_id" ProductId="POSTGRESQL" AdditionalParams="" StandardSQL="true" SQLMode="false" UiSchema="">
+    <taggedValue xmi:id="_41s_oRWCEeixFvDPuvH0_g" tag="Is Conn Need Reload" value="false"/>
+    <taggedValue xmi:id="_41xREBWCEeixFvDPuvH0_g" tag="package filter" value=""/>
+    <taggedValue xmi:id="_415z8BWCEeixFvDPuvH0_g" tag="Status" value=""/>
+    <taggedValue xmi:id="_416bABWCEeixFvDPuvH0_g" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_416bARWCEeixFvDPuvH0_g" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_416bAhWCEeixFvDPuvH0_g" tag="Description" value=""/>
+    <taggedValue xmi:id="_416bAxWCEeixFvDPuvH0_g" tag="Author" value=""/>
+    <taggedValue xmi:id="_416bBBWCEeixFvDPuvH0_g" tag="otherParameter"/>
+    <taggedValue xmi:id="_42ZjMBWCEeixFvDPuvH0_g" tag="DB ProductName" value="PostgreSQL"/>
+    <taggedValue xmi:id="_42ZjMRWCEeixFvDPuvH0_g" tag="DB ProductVersion" value="10.1"/>
+    <taggedValue xmi:id="_42ZjMhWCEeixFvDPuvH0_g" tag="DB IdentifierQuoteString" value="&quot;"/>
+    <parameters xmi:id="_41s_ohWCEeixFvDPuvH0_g" key="CONN_PARA_KEY_USERNAME" value="postgres"/>
+    <parameters xmi:id="_EWCPQBWDEeixFvDPuvH0_g" key="CONN_PARA_KEY_MAPRDB_TABLE_NS_MAPPING" value=""/>
+  </TalendMetadata:DatabaseConnection>
+  <orgomg.cwm.resource.relational:Catalog xmi:id="_SznTIBWDEeixFvDPuvH0_g" name="DW_BiPi" dataManager="_41s_oBWCEeixFvDPuvH0_g">
+    <ownedElement xsi:type="orgomg.cwm.resource.relational:Schema" xmi:id="_SznTIRWDEeixFvDPuvH0_g" name="">
+      <ownedElement xsi:type="relational:TdTable" xmi:id="_E1n40BWEEeixFvDPuvH0_g" name="Dim_tag" id="_E1jnYBWEEeixFvDPuvH0_g" label="Dim_tag" tableType="TABLE">
+        <feature xsi:type="relational:TdColumn" xmi:id="_E1n40RWEEeixFvDPuvH0_g" name="Tag_id" label="Tag_id" length="2147483647" sourceType="_VARCHAR" talendType="id_Object" key="true" nullable="false">
+          <taggedValue xmi:id="_E1n40hWEEeixFvDPuvH0_g" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_E1n40xWEEeixFvDPuvH0_g" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_E1n41BWEEeixFvDPuvH0_g" name="_VARCHAR" numericPrecisionRadix="10" javaDataType="2003"/>
+        </feature>
+        <feature xsi:type="relational:TdColumn" xmi:id="_E1n41RWEEeixFvDPuvH0_g" name="Name_tag" label="Name_tag" length="2147483647" sourceType="_VARCHAR" talendType="id_Object" nullable="false">
+          <taggedValue xmi:id="_E1n41hWEEeixFvDPuvH0_g" tag="Comment" value=""/>
+          <initialValue xsi:type="relational:TdExpression" xmi:id="_E1n41xWEEeixFvDPuvH0_g" language="COLUMN_DEF"/>
+          <sqlDataType xmi:id="_E1n42BWEEeixFvDPuvH0_g" name="_VARCHAR" numericPrecisionRadix="10" javaDataType="2003"/>
+        </feature>
+      </ownedElement>
+    </ownedElement>
+  </orgomg.cwm.resource.relational:Catalog>
+</xmi:XMI>
